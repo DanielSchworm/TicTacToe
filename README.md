@@ -1,4 +1,4 @@
-# TicTacToe Assignment ![bild](icons/java.png)
+# TicTacToe Assignment ![bild](Icons/java.png)
 
 ### Instructions
 In this assignment the game Tic-Tac-Toe shall be realized. The game is played on a 3×3 square grid by two players. The two players alternately place their characters (e.g. "X" and "O") in a free space. The first player to place three characters in a row, column or diagonal wins. More background information and rules for this game can be found on [Wikipedia](https://de.wikipedia.org/wiki/Tic-Tac-Toe).
