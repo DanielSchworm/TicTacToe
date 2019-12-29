@@ -4,13 +4,20 @@ public class TicTacToe {
 	private int COLS = 3;
 
 	public enum Player {
-		Unknown, X, O
+		Unknown,  	//empty (no player yet)
+		X,  		//player X
+		O   		//player O
 	}
 
 	public Player[][] board;
 	private Player currentPlayer;
 	private Player winner;
 
+	// Konstruktor
+	// zweidimensionales Array
+	// - Jedes Feld des Arrays erhält als Inhalt des Enum-Wert Player
+	// Spieler X fängt an
+	// winner = 0
 	public TicTacToe() {
 	}
 	public void initialiazeBoard() {}

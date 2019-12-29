@@ -10,24 +10,25 @@ It had to be written in the Java programming language. The given classes and fun
 
 ```Java
 public class TicTacToe {
-private int ROWS = 3;
-private int COLS = 3;
-public Player[][] board;
-public enum Player {
-Unknown, X, O
-}
 
-private Player currentPlayer;
-private Player winner;
+  private int ROWS = 3;
+  private int COLS = 3;
+  public Player[][] board;
+  
+  public enum Player {
+    Unknown, X, O
+  }
+  private Player currentPlayer;
+  private Player winner;
+  public TicTacToe() {}
+  public void initialiazeBoard() {}
+  public void play(int row, int col) {}
+  public boolean isBoardEmpty() {}
+  public boolean isGameWon() {}
+  public boolean isDraw() {}
+  public boolean isGameOver() {}
+  public Player getCurrentPlayer() {}
+  public Player getWinner() {}
 
-public TicTacToe() {}
-public void initialiazeBoard() {}
-public void play(int row, int col) {}
-public boolean isBoardEmpty() {
-public boolean isGameWon() {}
-public boolean isDraw() {}
-public boolean isGameOver() {}
-public Player getCurrentPlayer() {}
-public Player getWinner() {}
 }
 ```
